@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalentConsulting.TalentSuite.Users.API", "src\TalentConsulting.TalentSuite.Users.API\TalentConsulting.TalentSuite.Users.API.csproj", "{81EFA671-50DF-47FA-8480-AEE24DA9B94F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{464C4AA1-AB78-4F3A-8610-CBDC7F7051DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentConsulting.TalentSuite.Users.Common", "src\TalentConsulting.TalentSuite.Users.Common\TalentConsulting.TalentSuite.Users.Common.csproj", "{0FB029B6-D075-40F9-B220-236E0BDF230D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentConsulting.TalentSuite.Users.Core", "src\TalentConsulting.TalentSuite.Users.Core\TalentConsulting.TalentSuite.Users.Core.csproj", "{B20F927A-96F5-4F48-8F5F-DA18C651109E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentConsulting.TalentSuite.Users.Infrastructure", "src\TalentConsulting.TalentSuite.Users.Infrastructure\TalentConsulting.TalentSuite.Users.Infrastructure.csproj", "{F8E7F923-3F7D-4075-86AB-87EDCB1DB328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81EFA671-50DF-47FA-8480-AEE24DA9B94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EFA671-50DF-47FA-8480-AEE24DA9B94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EFA671-50DF-47FA-8480-AEE24DA9B94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EFA671-50DF-47FA-8480-AEE24DA9B94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB029B6-D075-40F9-B220-236E0BDF230D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB029B6-D075-40F9-B220-236E0BDF230D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB029B6-D075-40F9-B220-236E0BDF230D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB029B6-D075-40F9-B220-236E0BDF230D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20F927A-96F5-4F48-8F5F-DA18C651109E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20F927A-96F5-4F48-8F5F-DA18C651109E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20F927A-96F5-4F48-8F5F-DA18C651109E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20F927A-96F5-4F48-8F5F-DA18C651109E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E7F923-3F7D-4075-86AB-87EDCB1DB328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E7F923-3F7D-4075-86AB-87EDCB1DB328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E7F923-3F7D-4075-86AB-87EDCB1DB328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E7F923-3F7D-4075-86AB-87EDCB1DB328}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81EFA671-50DF-47FA-8480-AEE24DA9B94F} = {464C4AA1-AB78-4F3A-8610-CBDC7F7051DE}
+		{0FB029B6-D075-40F9-B220-236E0BDF230D} = {464C4AA1-AB78-4F3A-8610-CBDC7F7051DE}
+		{B20F927A-96F5-4F48-8F5F-DA18C651109E} = {464C4AA1-AB78-4F3A-8610-CBDC7F7051DE}
+		{F8E7F923-3F7D-4075-86AB-87EDCB1DB328} = {464C4AA1-AB78-4F3A-8610-CBDC7F7051DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A43FC1F4-E580-4F64-B77F-78E7114A952F}
+	EndGlobalSection
+EndGlobal
