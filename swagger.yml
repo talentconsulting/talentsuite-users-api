@@ -128,13 +128,8 @@ paths:
           required: false
         - in: query
           type: string
-          name: userId
-          description: "user to filter on"
-          required: false
-        - in: query
-          type: string
-          name: projectId
-          description: "project to filter on"
+          name: userGroupId
+          description: "group to filter on"
           required: false
 
       responses:
