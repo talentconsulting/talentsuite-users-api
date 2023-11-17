@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using System.Reflection;
 using TalentConsulting.TalentSuite.Users.Common;
 using TalentConsulting.TalentSuite.Users.Common.Interfaces;
+using TalentConsulting.TalentSuite.Users.Core.Entities;
 using TalentConsulting.TalentSuite.Users.Core.Infrastructure;
 using TalentConsulting.TalentSuite.Users.Infrastructure.Persistence.Interceptors;
 
@@ -78,5 +79,8 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     }
 
     //public DbSet<Audit> Audits => Set<Audit>();
+    public DbSet<User> Users => Set<User>();
+    public DbSet<Report> Reports => Set<Report>();
+    public DbSet<Risk> Risks => Set<Risk>();
 
 }

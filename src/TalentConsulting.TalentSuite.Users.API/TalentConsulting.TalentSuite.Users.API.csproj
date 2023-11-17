@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6d693413-c776-46d7-900f-6b757c51dcf0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -34,9 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Queries\" />
   </ItemGroup>
 
 </Project>
