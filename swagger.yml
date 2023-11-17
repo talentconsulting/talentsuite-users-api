@@ -204,7 +204,8 @@ definitions:
         type: string
       email:
         type: string
-      
+      usergroupId:
+        type: string
   userResponse:
       allOf:
         - $ref: "#/definitions/userRequest"
